@@ -103,7 +103,7 @@ for (var i = 0; i < 5; i++) {
 		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[0].children[1].setAttribute("src", img);
 
 
-		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[0].textContent = forecast.list[num].main.temp;
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[0].textContent = forecast.list[num].main.temp + "˚C";
 		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[1].textContent = forecast.list[num].weather[0].description;
 		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[3].textContent = forecast.list[num].wind.speed + " m/s";
 		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[4].textContent = forecast.list[num].clouds.all + "%";
@@ -118,6 +118,13 @@ for (var i = 0; i < 5; i++) {
 		var img = imgurl + forecast.list[num].weather[0].icon + ".png";    
 		imgurl + weather.weather[0].icon + ".png";
 		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[0].children[1].setAttribute("src", img);		
+
+
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[0].textContent = forecast.list[num].main.temp + "˚C";
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[1].textContent = forecast.list[num].weather[0].description;
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[3].textContent = forecast.list[num].wind.speed + " m/s";
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[4].textContent = forecast.list[num].clouds.all + "%";
+		document.getElementById("wetherdaylist").children[i].children[0].children[j+1].children[1].children[5].textContent = forecast.list[num].main.humidity + "%";
 		num++;
 		}
 	}

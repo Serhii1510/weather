@@ -5,27 +5,29 @@
 
 	<meta charset="utf-8">
 	
-	<link href="WetherStylecss/style.css" rel="stylesheet" type="text/css">
+	<link href="style_css/style.css" rel="stylesheet" type="text/css">
 	<title>Wether in Lviv district.</title>
 </head>
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<img id="logo" src="ImagesWether/wetherlogo.jpg">
-			<div id="district">
-				<a href="https://uk.wikipedia.org/wiki/Львів">
-					<p>Lviv District</p>
-				</a>
+	<div class="wrapper">
+		<div class="header">
+			<img class="logo" src="images/wetherlogo.jpg">
+			<div class="district">
+				<p>Enter your district:</p><input id="city" type="" name="submit" value="Lviv">
+				<br>
+				<button id="submit">Enter</button>
 			</div>
 		</div>
-		<h2 id="wethertitle">Weather in your city</h2>
-		<div id="widjetwrap">
-			<div id="moreinfo">
+
+		<h2 class="wethertitle">Weather in your city</h2>
+
+		<div class="weatherWrapper">
+			<div class="currentWeather">
 				<h1 id="curWeatherTitle"></h1>
 				<h3 id="curGrads"></h3>
 				<img id="curImg" src="">
 				<h2 id="curTime"></h2>
-				<table id="curTable">
+				<table class="curWeatherTable">
 					<tbody>
 						<tr>
 							<td>Wind</td>
@@ -55,99 +57,114 @@
 					</tbody>
 				</table>
 			</div>
-			<div id="wetherform">
-				
 
-				<h1>The wether for next 5 days</h1>
-				<div id="wetherdaylist">
-					<table id="tableone">
+			<div class="weatherForFiveDays">
+				<h1>The weather for next 5 days</h1>
+				<div class="forecastTable" id="forecastList">
+					<table>
 						<tbody>
-							<th colspan="2">Wetherone</th>
+							<th class="forecastTitle" colspan="2">Wetherone</th>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
@@ -155,92 +172,108 @@
 					</table>
 					<table id="tabletwo">
 						<tbody>
-							<th colspan="2">The vether one</th>
+							<th class="forecastTitle" colspan="2">The vether one</th>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
@@ -248,92 +281,108 @@
 					</table>
 					<table id="tablethree">
 						<tbody>
-							<th colspan="2">The vether one</th>
+							<th class="forecastTitle" colspan="2">The vether one</th>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
@@ -341,92 +390,108 @@
 					</table>
 					<table id="tablefour">
 						<tbody>
-							<th colspan="2">The vether one</th>
+							<th class="forecastTitle" colspan="2">The vether one</th>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
@@ -434,92 +499,108 @@
 					</table>
 					<table id="tablefive">
 						<tbody>
-							<th colspan="2">The vether one</th>
+							<th class="forecastTitle" colspan="2">The vether one</th>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
 							<tr>
 								<td><div>Fri 4 Oct</div><img src="#"></td>
 								<td>
-									<div>Temp</div>
+									<div class="temp">Temp</div>
 									<div>Clouds</div>
 									<br>
 									<div>wind</div>
+									<br>
 									<div>clouds%</div>
+									<br>
 									<div>hpa</div>
 								</td>
 							</tr>
@@ -530,23 +611,7 @@
 		</div>
 
 
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<div id="footer">
+		<div class="footer">
 			<ul>
 				<li>
 					<a href="#">Contact Us</a>
@@ -565,7 +630,7 @@
 	</div>
 
 
-	<script src="WetherJavaScript/wether.js"></script>
+	<script src="script/weather.js"></script>
 </body>
 </html>
 

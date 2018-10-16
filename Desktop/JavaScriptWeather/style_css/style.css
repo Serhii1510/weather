@@ -1,0 +1,165 @@
+
+body{
+	margin: 0px;
+}
+
+.header{
+	//background-color: rgb(206, 255, 238);
+}
+
+.wrapper {
+	margin: auto;
+	position: relative;
+	top: 0; 
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	width: 1000px;
+	//background-color: rgb(189, 219, 255);
+}
+
+.logo{
+	width: 200px;
+	height: 100px;
+	margin:5px;
+	border: 3px solid black;
+	border-radius: 3px;
+}
+
+.district{
+	height: 100px;
+	margin: 5px;
+	margin-left: 50px;
+	position: absolute;
+	display: inline;
+}
+
+.district p{
+	//position: absolute;
+	display: inline-block;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.district input{
+	display: inline-block;
+	height: 25px;
+	width: 200px;
+	font-size: 25px;
+}
+
+.district button{
+	height: 25px;
+	width: 70px;
+	border-radius: 10px;
+}
+
+.wethertitle {
+	text-align: center;
+}
+
+.widjetwrap{
+	position: relative;
+	display: flex;
+}
+
+.weatherWrapper{
+	position: relative;
+	display: flex;
+}
+
+.currentWeather{
+	margin: 5px;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.curWeatherTable{
+	border-collapse: collapse;
+}
+
+.curWeatherTable td{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+
+
+.weatherForFiveDays{
+	margin: 5px;
+	width: 50%;
+}
+
+.forecastTable table{
+		width: 100%;
+}
+
+.forecastTable table td{
+	text-align: center;
+	border: 0px;
+	border-top: 1px solid black;
+}
+
+.forecastTable td div{
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.forecastTitle{
+	border-radius: 5px;
+	background-color: rgb(165, 165, 165);
+}
+
+tr{
+	box-sizing: border-box;
+}
+
+td{
+	width: 50%;
+}
+
+table{
+	position: relative;
+}
+
+th{
+	text-align: left;
+	border: 1px solid black;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+.footer li{
+	text-align: center;
+	width: 22%;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+
+
+
+
+
+.temp{
+	border: 1px solid black;
+	padding: 4px;
+	border-radius: 16px;
+	background-color: rgba(61, 88, 93, 1);
+	color: white;
+}
+
+
+
+.weatherForFiveDays h1{
+text-align: center;
+color: rgb(161, 26, 148);
+}
+
+
+
+.currentWeather h1{
+	color: rgb(60, 61, 255);
+}
